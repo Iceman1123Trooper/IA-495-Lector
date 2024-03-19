@@ -13,7 +13,7 @@ jobs:
         # This is the version of the action for setting up Python, not the Python version.
         uses: actions/setup-python@v4
         with:
-          # Semantic version range syntax or exact version of a Python version
+          # Force the Python version to be the latest patch within 3.6 to ensure compatibility.
           python-version: '3.6.15'
       # Upgrades PIP, installs the dependencies provided in the requirements.txt file, and builds.
       - name: Install Dependencies
