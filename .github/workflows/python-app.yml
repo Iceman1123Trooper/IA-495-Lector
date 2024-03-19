@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           # Semantic version range syntax or exact version of a Python version
-          python-version: '3.6'
+          python-version: '3.6.15'
       # Upgrades PIP, installs the dependencies provided in the requirements.txt file, and builds.
       - name: Install Dependencies
         run: |
