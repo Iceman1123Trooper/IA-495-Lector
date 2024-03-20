@@ -51,7 +51,7 @@ jobs:
       uses: actions/setup-python@v3
       with:
         # Force the Python version to be the latest patch within 3.6 to ensure compatibility.
-          python-version: '3.6.x'
+          python-version: '3.7.x'
 
       # Upgrades PIP, installs the dependencies provided in the requirements.txt file and builds.
     - name: Install Dependencies and Build
